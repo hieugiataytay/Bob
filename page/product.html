@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- themify -->
+    <link href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css" rel="stylesheet">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="../asset/css/long.css">
+</head>
+<body>
+    <!-- <header>
+        <section id="header-menu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="../asset/img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản phẩm
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Sản phẩm mới</a></li>
+                                <li><a class="dropdown-item" href="#">Sản phẩm nổi bật</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hệ thống cửa hàng</a>
+                        </li>
+                    </ul>
+                    <div class="menu-header-right d-flex">
+                        <button class="icon-header icon-glass" href=""><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <a class="icon-header" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+
+                  </div>
+                </div>
+            </nav>
+        </section>
+
+        <section id="section-search">
+            <div class="container">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm..." aria-label="Tìm kiếm..." aria-describedby="basic-addon1">
+                    <button class="icon-header icon-glass" href=""><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </section>
+    </header>    -->
+
+    <main>
+        <section id="product" class="">
+            <div class="banner-product max-h-70vh max-h-80vh maxheight-480 overflow-hiden">
+                <img src="../asset/img/banner-product.png" alt="">
+                <div class="absolute bottom-0 w-100 linear-background--banner" >
+                    <div class="container">
+                        <div class="title-banner-product font-Hotel-Colline">
+                            <h1 class="font-Hotel-Colline">TABU Veneer</h1>
+                            <p>Veneer hay còn gọi là ván lạng dùng thường được dùng để dán hoặc ép trên các tấm nền như MDF, plywood, particle board.</p>
+                        </div>                    
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="duong-dan-product mg-top-24">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-gray-400 list-duong-dan">
+                      <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                      <li class="breadcrumb-item"><a href="#">Sản Phẩm</a></li>
+                      <li class="breadcrumb-item"><a href="#">Wood Vaneer</a></li>
+                      <li class="breadcrumb-item active font-semibold" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+            </div>
+        </section>
+
+        <section class="mg-top-40 intro-product">
+            <div class="container">
+                <div class="setting-product">
+                    <div class="col-span-3 product-select-laptop">
+                        <!-- <div class="categories">
+                            <div class="dropdown border-bottom">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Yen Lam Melamine
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown border-bottom">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Yen Lam Melamine
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="nav-list-product">
+                            <div class="title-nav-list">Danh mục</div>
+                            <div class="accordion" id="nav-list">
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Yen Lam Melamine
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <div class="list-nav-product setting-list-nav">
+                                        <a href="#">Tabu Vaneer</a>
+                                    </div>
+                                    <div class="list-nav-product setting-list-nav">
+                                        <a href="#">Tabu Vaneer</a>
+                                    </div>
+                                    <div class="list-nav-product setting-list-nav">
+                                        <a href="#">Tabu Vaneer</a>
+                                    </div>
+                                    <div class="list-nav-product setting-list-nav">
+                                        <a href="#">Tabu Vaneer</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Wood Vaneer
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        High Pressure Laminate (HPL)
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Sản phẩm hỗ trợ
+                                    </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="nav-list-product-two">
+                            <div class="accordion" id="nav-list">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-phanloai">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsephanloai" aria-expanded="true" aria-controls="collapsephanloai">
+                                        Phân loại
+                                        </button>
+                                    </h2>
+                                    <div id="collapsephanloai" class="accordion-collapse collapse" aria-labelledby="collapsephanloai" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Phân loại
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfive">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                        Loại gỗ
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingsix">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+                                        Bề mặt
+                                        </button>
+                                    </h2>
+                                    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="collapsesix" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingseven">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
+                                        Loại vân
+                                        </button>
+                                    </h2>
+                                    <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="collapseseven" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                                <div class="form-check-fillter">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Chưa hoàn thiện
+                                                    </label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingage">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseage" aria-expanded="true" aria-controls="collapseage">
+                                        Màu sắc
+                                        </button>
+                                    </h2>
+                                    <div id="collapseage" class="accordion-collapse collapse" aria-labelledby="collapseage" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="grid grid-coloum-3 gap-16 pd-right-20">
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Beige">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/beige.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Black">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/Black.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Brown">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/Dark_Brown.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Grey">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/dark_grey.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Light">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/drak_light.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Light Green">
+                                                        <div class="relative">
+                                                            <div class="v-poppy">
+                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/light_green.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+
+
+                    </div>
+                    <div class="hidden product-select-mobile">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            LỌC SẢN PHẨM
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">lọc sản phẩm</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="nav-list-product">
+                                            <div class="title-nav-list">Danh mục</div>
+                                            <div class="accordion" id="nav-list">
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Yen Lam Melamine
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                    <div class="list-nav-product setting-list-nav">
+                                                        <a href="#">Tabu Vaneer</a>
+                                                    </div>
+                                                    <div class="list-nav-product setting-list-nav">
+                                                        <a href="#">Tabu Vaneer</a>
+                                                    </div>
+                                                    <div class="list-nav-product setting-list-nav">
+                                                        <a href="#">Tabu Vaneer</a>
+                                                    </div>
+                                                    <div class="list-nav-product setting-list-nav">
+                                                        <a href="#">Tabu Vaneer</a>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Wood Vaneer
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        High Pressure Laminate (HPL)
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        Sản phẩm hỗ trợ
+                                                    </button>
+                                                    </h2>
+                                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="nav-list-product-two">
+                                            <div class="accordion" id="nav-list">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="heading-phanloai">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsephanloai" aria-expanded="true" aria-controls="collapsephanloai">
+                                                        Phân loại
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapsephanloai" class="accordion-collapse collapse" aria-labelledby="collapsephanloai" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Phân loại
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingfive">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                                        Loại gỗ
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingsix">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+                                                        Bề mặt
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="collapsesix" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingseven">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
+                                                        Loại vân
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="collapseseven" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body pd-16 ds-flex align-center">
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check-fillter">
+                                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                                        Chưa hoàn thiện
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingage">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseage" aria-expanded="true" aria-controls="collapseage">
+                                                        Màu sắc
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseage" class="accordion-collapse collapse" aria-labelledby="collapseage" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                                <div class="grid grid-coloum-3 gap-16 pd-right-20">
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Beige">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/beige.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Black">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/Black.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Brown">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/Dark_Brown.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Grey">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/dark_grey.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark Light">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/drak_light.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div type="button" class="w-56 h-56 pd-5 hover-border-gray-300 rounded-full cursor-pointer" data-bs-toggle="tooltip" data-bs-placement="top" title="Light Green">
+                                                                        <div class="relative">
+                                                                            <div class="v-poppy">
+                                                                                <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/light_green.jpg" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                  
+                    </div>
+                    <div class="col-span-9 list-product-all">
+                        <div class="col-span-full mg-bottom-40 border-gray-800">
+                            <div class="ds-flex-row gap-20">
+                                <div class="ds-flex-row flex-wrap pd-8-16 button-select align-center bg-gray-200">
+                                    <span>Black</span>
+                                    <button class="stroke-current">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                              </svg>
+                                              
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="ds-flex-row flex-wrap pd-8-16 button-select align-center">
+                                    <span>Xóa tất cả</span>
+                                    <button class="stroke-current">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                              </svg>
+                                              
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-san-pham">
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                            <div class="group-product">
+                                <div class="img-product relative">
+                                    <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                    <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                    <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 h-100 top-0 setting-click ">
+                                        <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                        <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="content-product">
+                                    <p>NV01</p>
+                                    <h5>White Oak-B</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <nav aria-label="Page navigation example" class="mg-top-64">
+                            <ul class="pagination justify-center gap-10">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>  
+                </div>
+
+
+                
+            </div>
+
+        </section>
+    </main>
+    <main class="container">
+        <div class="flex justify-end">
+            <a href="" class="nuxt-link-active">
+                <button class="navigate-boxShadow setting-nuxt-link bg-gray-800 fixed bottom-0 right-0 z-index-200 rounded-sm duration-500 bg-white bg-white-hover">
+                    <div class="flex justify-center align-center gap-10">
+                        <span class="fill-current text-white duration-500 text-black ">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.7393 0L19.6005 1.69875L17.3318 21.5738L16.0118 21.42V2.7675C16.0118 2.66804 15.9723 2.57266 15.902 2.50234C15.8316 2.43201 15.7363 2.3925 15.6368 2.3925H4.46555L4.7393 0ZM0.606797 19.4288L4.01555 16.5563L10.4993 22.6575L0.606797 19.4288ZM12.1755 23.1788L4.30055 15.7463C4.23081 15.6798 4.13815 15.6427 4.0418 15.6427C3.94544 15.6427 3.85279 15.6798 3.78305 15.7463L0.216797 18.7463V3.15375H15.153L15.2355 23.0513L12.1755 23.1788ZM18.8243 23.8575L16.0118 23.1075V22.2075L17.628 22.395H17.673H17.733H17.7968L17.853 22.365C17.9086 22.3376 17.9565 22.297 17.9925 22.2466C18.0285 22.1962 18.0514 22.1377 18.0593 22.0763L20.1743 3.50625L23.7855 4.48125L18.8243 23.8575Z"></path>
+                                <rect y="2.92871" width="15.375" height="20.25"></rect>
+                                </svg>                                                            
+                        </span>
+                        <div class="text-white font-bold duration-500 text-black">Sản phẩm</div>
+                    </div>
+                </button>
+            </a>
+        </div>
+    </main>
+</body>
