@@ -440,6 +440,17 @@ height: 30px;
     height: 100%;
 
 }
+.product-select-mobile .bg-button-select{
+	--tw-bg-opacity: 1;
+    background-color: rgba(18, 18, 18, var(--tw-bg-opacity)) !important;
+}
+.bg-button-select:hover{
+	background-color: #fff !important;
+	color: #333;
+}
+.setting-color-product .mg-auto{
+	margin: auto;
+}
 @media (max-width: 1400px){
 .container {
     max-width: 1024px;
@@ -489,7 +500,7 @@ height: 30px;
 		max-height: 80vh;
 	}
 	.nav-list-product-two .accordion-body{
-		padding: 0;
+		padding: 10px 0px;
 	}
 	.nav-list-product-two .accordion-body .gap-16{
 		gap: 9px;
@@ -560,6 +571,9 @@ height: 30px;
 	.title-banner-product {
 		padding-bottom: 48px;
 		width: 100%;
+	}
+	.nav-list-product-two .accordion-body{
+		padding: 20px;
 	}
 
 }
