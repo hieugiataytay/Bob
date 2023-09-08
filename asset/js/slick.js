@@ -10,55 +10,6 @@ $(document).ready(function(){
 });
 
 
-
-// $('.slick-du-an').slick({
-//     centerMode: true,
-//     centerPadding: '60px',
-//     slidesToShow: 1,
-//     responsive: [
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 3
-//         }
-//       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 1
-//         }
-//       }
-//     ]
-//   });
-
-//   $('.slick-du-an').slick({
-//     infinite: true,
-//     slidesToShow: 1,
-//     slidesToScroll:1
-//   });
-// const swiper = new Swiper('.swiper', {
-//     // Optional parameters
-//     loop: true,
-//     centeredSlides:true,
-//     centeredSlidesBounds:true,
-  
-//     // If we need pagination
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
-//   });
-
   var swiper = 
   new Swiper('.swiper',{
     slidesPerView: '2',
@@ -135,3 +86,14 @@ $(document).ready(function(){
   }
 }
  );
+ var swiper = 
+ new Swiper('.swiper-project',{
+   slidesPerView: '3',
+   spaceBetween: 60,
+   autoplay: false,
+   grabCursor: true,
+       navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+});
