@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
   var swiper = 
-  new Swiper('.swiper',{
+  new Swiper('.swiper-du-an-details',{
     slidesPerView: '2',
     spaceBetween: 60,
     autoplay: false,
@@ -96,4 +96,27 @@ $(document).ready(function(){
      nextEl: '.swiper-button-next',
      prevEl: '.swiper-button-prev',
    },
+});
+
+var swiper = 
+new Swiper('.swiper-related',{
+  slidesPerView: '5',
+  spaceBetween: 20,
+  autoplay: false,
+  grabCursor: true,
+      navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    1400:{
+        slidesPerView: '5',
+    },
+    768: {
+        slidesPerView: '3',
+    },
+    250:{
+        slidesPerView: '2.5',
+    }
+}
 });

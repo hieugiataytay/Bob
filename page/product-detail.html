@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- themify -->
+    <link href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css" rel="stylesheet">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="../asset/css/long.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+  <script src="../asset/js/main.js" type="application/javascript"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
+  
+
+</head>
+
+<body>
+    <main>
+        <section class="duong-dan-product mg-top-24">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-gray-400 list-duong-dan">
+                      <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                      <li class="breadcrumb-item"><a href="#">Sản Phẩm</a></li>
+                      <li class="breadcrumb-item"><a href="#">Wood Vaneer</a></li>
+                      <li class="breadcrumb-item active font-semibold" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+            </div>
+        </section>
+
+        <section class="intro-product-details">
+            <div class="container">
+                <div class="row gap-48">
+                    <div class="col-4 relative img-product-details">
+                        <!-- <div class="wrapper">
+                            <div class="img-left">
+                              <img src="../asset/img/anh-1-du-an.jpg" />
+                            </div>
+                            <div class="right img-right">
+                              <div class="img-inner">
+                                <img src="../asset/img/anh-1-du-an.jpg"  />
+                              </div>
+                            </div>
+                          </div> -->
+                          <div class="pd-img-zoom height-540 img-zoom-desktop">
+                            <div class="img-zoom-container" onmouseleave="zoomOut();" >
+                                <img id="myimage" src="../asset/img/ECRYR1r8aaTiLBjG7DI79Yyg6b4rPAgOmULT0CMH.jpg" onmouseenter="imageZoom('myimage', 'myresult');" 
+                                width="300" height="240">
+                                <div id="myresult" class="img-zoom-result"></div>
+                            </div>
+                          </div>
+                          <div class="pd-img-zoom height-540 img-zoom-mobile">
+                            <img id="myimage" src="../asset/img/ECRYR1r8aaTiLBjG7DI79Yyg6b4rPAgOmULT0CMH.jpg" onmouseenter="imageZoom('myimage', 'myresult');" 
+                            width="300" height="240">
+                          </div>
+
+                          <div class="icon-facebook-twiter">
+                            <span>Chia sẻ</span>
+                            <a href="" target="_blank" class="mg-left-16">
+                                <span class="fill-current text-gray-700 cursor-pointer duration-500 hover-text-primary">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_123_2578)">
+                                          <path d="M21.5205 0.988281H3.52051C1.86601 0.988281 0.520508 2.33378 0.520508 3.98828V21.9883C0.520508 23.6428 1.86601 24.9883 3.52051 24.9883H21.5205C23.175 24.9883 24.5205 23.6428 24.5205 21.9883V3.98828C24.5205 2.33378 23.175 0.988281 21.5205 0.988281Z"></path>
+                                          <path d="M20.7705 12.9883H17.0205V9.98828C17.0205 9.16028 17.6925 9.23828 18.5205 9.23828H20.0205V5.48828H17.0205C14.535 5.48828 12.5205 7.50278 12.5205 9.98828V12.9883H9.52051V16.7383H12.5205V24.9883H17.0205V16.7383H19.2705L20.7705 12.9883Z" fill="white"></path>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_123_2578">
+                                            <rect width="24" height="24" fill="white" transform="translate(0.520508 0.988281)"></rect>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </span>
+                            </a>
+                            <a href="" target="_blank" class="mg-left-16">
+                                <span class="fill-current text-gray-700 cursor-pointer duration-500 hover-text-primary">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_123_2585)">
+                                          <path d="M24.5195 5.54678C23.627 5.93828 22.676 6.19778 21.6845 6.32378C22.7045 5.71478 23.483 4.75778 23.849 3.60428C22.898 4.17128 21.848 4.57178 20.729 4.79528C19.826 3.83378 18.539 3.23828 17.135 3.23828C14.411 3.23828 12.218 5.44928 12.218 8.15978C12.218 8.54978 12.251 8.92478 12.332 9.28178C8.24153 9.08228 4.62203 7.12178 2.19053 4.13528C1.76603 4.87178 1.51703 5.71478 1.51703 6.62228C1.51703 8.32628 2.39453 9.83678 3.70253 10.7113C2.91203 10.6963 2.13653 10.4668 1.47953 10.1053C1.47953 10.1203 1.47953 10.1398 1.47953 10.1593C1.47953 12.5503 3.18503 14.5363 5.42153 14.9938C5.02103 15.1033 4.58453 15.1558 4.13153 15.1558C3.81653 15.1558 3.49853 15.1378 3.20003 15.0718C3.83753 17.0203 5.64653 18.4528 7.79753 18.4993C6.12353 19.8088 3.99803 20.5978 1.69703 20.5978C1.29353 20.5978 0.906531 20.5798 0.519531 20.5303C2.69903 21.9358 5.28203 22.7383 8.06753 22.7383C17.1215 22.7383 22.0715 15.2383 22.0715 8.73728C22.0715 8.51978 22.064 8.30978 22.0535 8.10128C23.03 7.40828 23.8505 6.54278 24.5195 5.54678Z"></path>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_123_2585">
+                                            <rect width="24" height="24" fill="white" transform="translate(0.519531 0.988281)"></rect>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </span>
+                            </a>
+                          </div>
+
+
+
+
+
+                          <!-- <div id="img-container">
+                            <img src="../asset/img/ECRYR1r8aaTiLBjG7DI79Yyg6b4rPAgOmULT0CMH.jpg" />
+                          </div>
+                        <script>
+                            var options1 = {
+
+                                offset: {vertical: 0, horizontal: 10}
+                            };
+
+                            // If the width and height of the image are not known or to adjust the image to the container of it
+                            var options2 = {
+                                fillContainer: true,
+                                offset: {vertical: 0, horizontal: 10}
+                            };
+
+                            new ImageZoom(document.getElementById("img-container"), options2);
+                        </script> -->
+
+                    </div>
+                    <div class="col-8 pd-left-48 thong-so-product-details">
+                        <div class="thong-so-product mg-bottom-20">
+                            <div class="name-product">
+                                <h3 class="text-gray-700 mg-bottom-4">TABU MM6.00.246</h3>
+                                <h3 class="mg-bottom-4">Caleidolegno Tiglio</h3>
+                                <div class="price-product">
+                                    <h4 class="text-gray-700">Giá Bán:</h4><span>Liên hệ</span>
+                                </div>
+                            </div>
+
+                            <div class="intro-product mg-top-16">
+                                <div class="material mg-bottom-6 flex justify-space align-center">
+                                    <p>Vật liệu</p>
+                                    <p>Veneer nhuộm</p>
+                                </div>
+                                <div class="classify mg-bottom-6 flex justify-space align-center">
+                                    <p>Phân loại</p>
+                                    <p>Veneer nhuộm</p>
+                                </div>
+                                <div class="surface mg-bottom-6 flex justify-space align-center">
+                                    <p>Bề mặt</p>
+                                    <p>Chưa hoàn thiện</p>
+                                </div>
+                                <div class="vein mg-bottom-6 flex justify-space align-center">
+                                    <p>Loại vân</p>
+                                    <div class="v-poppy">
+                                        <img class="w-46 h-46 rounded-full cursor-pointer" src="../asset/img/beige.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="description mg-bottom-24">
+                            <p class="text-gray-700">Mô tả sản phâm</p>
+                            <p class="max-w-480">The 555.18 Collection (RED BOX 555) là bộ sưu tập TABU đặc biệt, bao gồm 555 mã veneer tự nhiên nhuộm tương ứng 13 tệp màu. Đây là một lựa chọn đáng kinh ngạc được phát triển bởi TABU trong hơn 20 năm công nghệ nhuộm gỗ. Vì vậy, bộ sưu tập này được các nhà thiết kế rất ưa chuộng.</p>
+                        </div>
+                        <div class="button-product-details">
+                            <button class="button-gio">Thêm vào giỏ hàng</button>
+                            <button class="button-yeu-cau">Gửi yêu cầu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="related-products" class="">
+            <div class="container">
+                <div class="setting-related">
+                    <h3 class="titel-related">Sản phẩm liên quan</h3>
+                </div>
+
+                <div class="swiper-related swiper">
+
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-1.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-2.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-1.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-2.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-1.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/related-2.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="group-product">
+                            <div class="img-product relative">
+                                <img src="../asset/img/pZ0GW30vhzmwPUO5IGyIvucaAtTozlUSOqcLo5ki.jpg" alt="">
+                                <div class="opacity-0 group-hover-opacity-50 bg-gray-800 duration-500 absolute h-full w-full top-0"></div>
+                                <div class="click-product absolute group-hover-opacity-100 opacity-0 duration-500 w-100 top-0 setting-click ">
+                                    <a href="#" class="duration-500 w-full text-white border border-white setting-button-click button-click-hover hover-border-gray-800 hover-text-gray-800 hover-bg-white">Xem chi tiết</a>
+                                    <a href="#" class="duration-500 w-full text-black setting-button-click border-black bg-white hover-border-white hover-text-white hover-bg-black">Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="content-product">
+                                <p>NV01</p>
+                                <h5>White Oak-B</h5>
+                            </div>
+                        </div>              
+                      </div>
+                    </div>
+                  
+
+                    <div class="swiper-button-prev button-swiper"></div>
+                    <div class="swiper-button-next button-swiper"></div>
+                  
+                  </div>
+                  </script>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../asset/js/main.js" type="application/javascript"></script>
+    <script src="../asset/js/slick.js" type="application/javascript"></script>
+    
+</body>
