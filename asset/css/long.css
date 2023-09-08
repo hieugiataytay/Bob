@@ -1079,6 +1079,12 @@ height: 30px;
 	}
 }
 
+@media (max-width:350px){
+	#nav-tab-project .product-inner{
+		height: 318px;
+	}
+}
+
 
 
 
