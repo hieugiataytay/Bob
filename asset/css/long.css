@@ -967,7 +967,16 @@ height: 30px;
 }
 .intro-product{
 	line-height: 1.5;
+	/* width: 307px; */
+}
+.thong-so-product-details .intro-product{
 	width: 307px;
+}
+.list-san-pham .setting-click{
+	height: 100%;
+}
+.list-san-pham .img-product img{
+	display: block;
 }
 .justify-space{
 	justify-content: space-between;
@@ -1112,6 +1121,9 @@ height: 30px;
 }
 .img-zoom-mobile{
 	display: none;
+}
+.swiper-related .swiper-wrapper .swiper-slide:hover{
+	scale: 1;
 }
  @media (max-width: 1400px){
 		.container {
