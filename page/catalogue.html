@@ -6,6 +6,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="../asset/css/long.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -81,131 +83,183 @@
     </header>
 
     <main>
-        <!-- title box cart  -->
-        <section id="section-cart-title-box">
-            <div class="container">
-                <div class="section-cart-title">
-                    <div class="title-cart-text">
-                        <h1>Giỏ hàng</h1>
-                    </div>
-    
-                    <div class="title-cart-back">
-                        <a href=""><i class="fa-solid fa-arrow-left"></i> Quay lại danh mục</a>
-                    </div>  
-                </div>
-            </div>
-         
-        </section>
-
-        <!-- Giỏ hàng khi trống -->
-        <section id="section-cart-empty" style="display: none">
-            <div class="container">
-                <div class="section-cart-empty-inner">
-                    <div class="cart-empty-image">
-                        <img src="../asset/img/empty-cart.png" alt="">
-                    </div>
-                    <div class="cart-empty-text">
-                        <h3>Giỏ hàng trống</h3>
-                        <p>Chưa có sản phẩm ở giỏ hàng</p>
-                        <a href="">Xem thêm sản phẩm</a>
+        <section id="banner-project">
+            <div class="banner-du-an max-h-70vh h-100 max-h-80vh maxheight-810 overflow-hiden">
+                <img src="../asset/img/banner-project.png" alt="">
+                <div class="absolute bottom-0 w-100 linear-background--banner-duan" >
+                    <div class="container">
+                        <div class="title-banner-du-an font-Hotel-Colline">
+                            <h1 class="font-Hotel-Colline text-uppcase">Đồng Hành Tạo Không Gian Hoàn Mĩ</h1>
+                            <p>Cùng Yên Lâm khám phá những kiến trúc đã sử dụng sản phẩm của chúng tôi.</p>
+                        </div>                    
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Giỏ hàng khi có sản phẩm -->
-        <section id="section-cart">
-            <div class="container">
-                <div class="section-cart-inner">
+        <section id="section-list-catalogue">
+            <div class="section-list-catalogue-inner">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-12 cart-left">
-                            <div class="cart-left-heading">
-                                <p>Sản phẩm</p>
-                                <p>Số lượng</p>
-                            </div>
-
-                            <div class="cart-table">
-                                <div class="cart-table-image">
-                                    <img src="../asset/img/Jn0cOvKgKVc0K3pMSQmLrIlLyCYlPbIJJR202GpD.jpg" alt="">
-                                </div>
-                                <div class="cart-table-info">
-                                    <div class="cart-name">
-                                        <p>Brushed Titanium</p>   
-                                    </div>
-
-                                    <div class="cart-code">
-                                        <p>Mã sản phẩm: <span class="code">105MB</span></p>
-                                    </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
                                 </div>
 
-                                <div class="cart-button">
-                                    <div class="cart-button-inner">
-                                        <button>-</button>
-                                        <input type="text" value="1">
-                                        <button>+</button>
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
+
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="cart-delete">
-                                    <div class="cart-delete-inner">
-                                        <a href=""><i class="fa-solid fa-trash-can"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="cart-table">
-                                <div class="cart-table-image">
-                                    <img src="../asset/img/Jn0cOvKgKVc0K3pMSQmLrIlLyCYlPbIJJR202GpD.jpg" alt="">
-                                </div>
-                                <div class="cart-table-info">
-                                    <div class="cart-name">
-                                        <p>Brushed Titanium</p>   
-                                    </div>
-
-                                    <div class="cart-code">
-                                        <p>Mã sản phẩm: <span class="code">105MB</span></p>
-                                    </div>
-                                </div>
-
-                                <div class="cart-button">
-                                    <div class="cart-button-inner">
-                                        <button>-</button>
-                                        <input type="text" value="1">
-                                        <button>+</button>
-                                    </div>
-                                </div>
-
-                                <div class="cart-delete">
-                                    <div class="cart-delete-inner">
-                                        <a href=""><i class="fa-solid fa-trash-can"></i></a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-        
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 cart-right">
-                            <div class="cart-right-inner">
-                                <div class="form-contact-title">
-                                    <h3>Nhận tư vấn sản phẩm</h3>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
                                 </div>
 
-                                <div class="form-contact">
-                                    <div class="input-contact">
-                                        <input type="text" class="form-control" placeholder="Họ và tên *" required>
-                                    </div>
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
 
-                                    <div class="input-contact">
-                                        <input type="text" class="form-control" placeholder="Số điện thoại *" required>
-                                    </div>
-
-                                    <div class="input-contact">
-                                        <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea" placeholder="Yêu cầu khác"></textarea>
-                                    </div>
-
-                                    <div class="button-submit-contact">
-                                        <a href="">Nhận tư vấn </a>
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
                                     </div>
                                 </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
+                                </div>
+
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
+
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
+                                </div>
+
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
+
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
+                                </div>
+
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
+
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 catalogue-item">
+                            <div class="catalogue-item-inner">
+                                <div class="catalogue-item-img">
+                                    <img src="../asset/img/RGzMNKq5VcQfxhxfg3L8JU0u9o7WSwae7hLwG8dx.jpg" alt="">
+                                </div>
+
+                                <div class="catalogue-overlay"></div>
+                                <div class="catalogue-borderbox">
+                                    <div class="catalogue-info">
+                                        <div class="catalogue-name">
+                                            <p>PERForm Laminate</p>
+                                        </div>
+                                          
+                                          <!-- Modal -->
+                                        <div class="catalogue-contact">
+                                            <a href="">Liên hệ</a>
+                                        </div>
+
+                                        <div class="catalogue-see">
+                                            <a href="">Xem ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -213,7 +267,7 @@
             </div>
         </section>
     </main>
-    
+
 
     <footer>
         <section id="section-footer">
